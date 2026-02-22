@@ -1,0 +1,186 @@
+---
+title: "Resume — Payton Morlock"
+---
+
+```{=html}
+<!-- CUSTOM NAV -->
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="/" class="nav-brand">
+      <span class="brand-name">Payton Morlock</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#projects">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="index.html#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="resume-page">
+  <div class="resume-hero">
+    <div class="container">
+      <h1>Payton Morlock</h1>
+      <p>Master of Chinese Economic &amp; Political Affairs</p>
+      <div class="resume-download">
+        <a href="assets/morlock-cv.pdf" download class="btn btn-gold">Download PDF CV</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="resume-body">
+    <div class="resume-section fade-up">
+      <h2 class="resume-section-title">Education</h2>
+
+      <div class="resume-entry">
+        <div>
+          <p class="resume-entry-org">University of California, San Diego</p>
+          <p class="resume-entry-role">Master of Chinese Economic &amp; Political Affairs </p>
+        </div>
+        <p class="resume-entry-date">December 2025</p>
+        <p class="resume-entry-desc">
+          Coursework: Statistics and Econometrics; Political economy and development; Microeconomics; Macroeconomic Data Analysis; Research Design; GIS and Remote Sensing; International Trade.
+          School of Global Policy and Strategy. Merit scholarship recipient. Capstone: Spatio-temporal analysis of Chinese overseas development projects in Africa.
+        </p>
+      </div>
+      
+            <div class="resume-entry">
+        <div>
+          <p class="resume-entry-org">Arizona State University</p>
+          <p class="resume-entry-role">BA, Global Studies</p>
+        </div>
+        <p class="resume-entry-date">December 2023</p>
+        <p class="resume-entry-desc">
+          Chinese Flagship Program, capstone year in Taiwan at National Yangming Chiaotung University. Barrett, The Honors College. Full merit scholarship recipient. Magna Cum Laude, Dean's List, Phi Beta Kappa. Minors in Chinese Language, Economics.
+          
+          Coursework: Chinese language; Statistics; Micro- and macro-economics; Brief calculus; Math for business analysis; International trade negotiations; Geopolitics; Religious and ethnic conflict.
+        </p>
+      </div>
+          
+    <div class="resume-section fade-up">         
+      <h2 class="resume-section-title">Experience</h2>
+
+      <div class="resume-entry">
+        <div>
+          <p class="resume-entry-org">UC San Diego History Department</p>
+                    <p class="resume-entry-role">Teaching Assistant</p>
+        </div>
+        <p class="resume-entry-date">September 2024–December 2024</p>
+        <p class="resume-entry-desc">
+          • Taught students material pertaining to the US Civil War, helped students with difficult readings, graded work in line with requirements by professor, and held office hours to answer questions
+        </p>
+      </div>
+
+      <div class="resume-entry">
+        <div>
+          <p class="resume-entry-org">UN International Organization for Migration - Rwanda</p>
+          <p class="resume-entry-role">Policy Analyst Intern</p>
+        </div>
+        <p class="resume-entry-date">June 2024–December 2024</p>
+        <p class="resume-entry-desc">
+          • Prepared briefings for Government of Rwanda DGIE delegate for use in Global Compact on Migration Regional Review
+          • Monitored Mpox situation and submitted situation report to regional office, securing $10,000 USD to improve health service delivery
+          • Assisted on a project to digitize trade tools and resources for informal cross-border traders and drafted proposal for Multi-Partner Joint Fund program with Government of Rwanda to counter trafficking
+        </p>
+      </div>
+
+ <div class="resume-entry">
+        <div>
+          <p class="resume-entry-org">Institute for National Policy Research - Taipei</p>
+          <p class="resume-entry-role">Intern</p>
+        </div>
+        <p class="resume-entry-date">February 2023–May 2023</p>
+        <p class="resume-entry-desc">
+          • Translated research content to improve accessibility for international audiences
+        </p>
+      </div>
+ 
+ <div class="resume-entry">
+        <div>
+          <p class="resume-entry-org">City of Phoenix, Office of Mayor Kate Gallego</p>
+          <p class="resume-entry-role">Intern</p>
+        </div>
+        <p class="resume-entry-date">May 2022–August 2022</p>
+        <p class="resume-entry-desc">
+          • Drafted and refined official mayoral proclamations
+          • Headed data projects to support office operations, monitor City Council proceedings, analyze potential policy shifts; delivered comprehensive briefings to senior advisers
+          • Managed constituent communications and resolved community concerns
+        </p>
+      </div>
+
+  <div class="resume-entry">
+        <div>
+          <p class="resume-entry-org">ASU, Center for the Study of Religion and Conflict</p>
+          <p class="resume-entry-role">Undergraduate Research Fellow</p>
+        </div>
+        <p class="resume-entry-date">August 2021-December 2021</p>
+        <p class="resume-entry-desc">
+            • Researched how Adivasi religious knowledge could inform sustainable development
+            • Conducted research on religious conflict dynamics and synthesized findings
+        </p>
+      </div>
+
+
+
+ <div class="resume-entry">
+        <div>
+        <p class="resume-entry-org">Arizona State University</p>
+        </div>
+        <p class="resume-entry-date">August 2020-August 2022</p>
+        <p class="resume-entry-role">Student Worker II</p>
+        <p class="resume-entry-desc">
+          • Procured materials and handled financial accounts for various labs, including journal entries, processing invoices, payment reconciliation, etc.
+        </p>
+        </div>
+        <p class="resume-entry-role">Front Office Aide</p>
+        <p class="resume-entry-desc">
+          • Provided administrative support processing orders received and invoices, wrote journal entries, ensured accuracy with
+payment reconciliation, and other finance-related tasks
+          • Disbursed stipends and processed reimbursements
+        </p>
+        </div>
+        <p class="resume-entry-role">Global Peer Mentor</p>
+        <p class="resume-entry-desc">
+          • Mentored 16 incoming international freshman, acting as a liaison between staff and students, including connecting the students to necessary resources
+        </p>
+      </div>
+
+    <div class="resume-section fade-up">
+      <h2 class="resume-section-title">Skills &amp; Languages</h2>
+      <div class="about-expertise" style="margin-top:0;">
+        <span class="expertise-tag">Mandarin Chinese (Professional Proficiency, ILR 3 (OPI))</span>
+        <span class="expertise-tag">R / Stata / Python for Statistical Programming</span>
+        <span class="expertise-tag">QGIS / ArcGIS / Python for Spatial Analysis</span>
+        <span class="expertise-tag">Text2Data Analysis / NLP for Statistics and ML</span>
+        <span class="expertise-tag">Webscraping</span>
+        <span class="expertise-tag">Javascript and Remote Sensing</span>
+        <span class="expertise-tag">Data Visualization in R and Tableau</span>
+        <span class="expertise-tag">Microsoft Excel</span>
+        <span class="expertise-tag">Quantitative Research</span>
+        <span class="expertise-tag">Policy Writing</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <p class="footer-name">Payton Morlock</p>
+      <p class="footer-tagline">Chinese Economic &amp; Political Affairs</p>
+    </div>
+    <div class="footer-right">
+      <a href="mailto:paytonmmorlock@gmail.com">paytonmmorlock@gmail.com</a>
+      <a href="https://www.linkedin.com/in/payton-morlock-b474721b5/" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Payton Morlock. All rights reserved.</p>
+  </div>
+</footer>
+```
