@@ -1,0 +1,16 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Payton Morlock"
+  description: "Master of Chinese Economic and Political Affairs"
+  favicon: assets/favicon.ico
+
+format:
+  html:
+    theme: none
+    css: assets/css/main.css
+    toc: false
+    smooth-scroll: true
+    include-after-body: assets/js/main.html
