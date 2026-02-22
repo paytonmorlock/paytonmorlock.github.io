@@ -1,0 +1,141 @@
+---
+title: "Payton Morlock"
+format:
+  html:
+    template-partials: []
+---
+
+```{=html}
+<!-- CUSTOM NAV -->
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="/" class="nav-brand">
+      <span class="brand-name">Payton Morlock</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-container">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Portfolio</p>
+      <h1 class="hero-name">
+        Payton
+        <em>Morlock</em>
+      </h1>
+      <p class="hero-title">
+        Master of Chinese Economic &amp; Political Affairs.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Work</a>
+        <a href="resume.html" class="btn btn-outline">Download CV</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-portrait-frame">
+        <!-- Replace with: <img src="assets/images/portrait.jpg" alt="Payton Morlock"> -->
+        <div class="hero-accent-line"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-sidebar">
+        <div class="about-number">01</div>
+        <span class="section-label">About</span>
+        <p style="font-size:0.875rem; color:var(--ink-faint); margin-top:0.5rem;">New York, New York</p>
+      </div>
+      <div class="about-content fade-up">
+        <h2 class="section-title">About Me</h2>
+        <p>
+          I am a Master of Chinese Economic and Political Affairs with experience in policy analysis, quantitative and qualitative research, and policy evaluation. My work focuses primarily on China, spanning economic impacts of BRI, the Chinese legal system, and various dimensions of great-power competition.
+        </p>
+        <p>
+          With a command of Mandarin and deep familiarity with Chinese institutional structures, I provide nuanced perspectives that go beyond surface-level reporting and pride myself on grounding analysis in primary sources, historical context, and quantitative analysis.
+        </p>
+        <p>
+          Beyond my academic and professional pursuits, I practice judo at Kokushi Budo Institute, along with sambo at New York Combat Sambo. In my free time, I volunteer at a cat shelter, Flatbush Cats, and enjoy reading when I can.
+        </p>
+        <div class="about-expertise">
+          <span class="expertise-tag">Political Economy</span>
+          <span class="expertise-tag">Chinese Economy</span>
+          <span class="expertise-tag">Geopolitical Risk</span>
+          <span class="expertise-tag">Mandarin (Professional)</span>
+          <span class="expertise-tag">Spatial Analysis</span>
+          <span class="expertise-tag">Data Analysis</span>
+          <span class="expertise-tag">Policy Research</span>
+          <span class="expertise-tag">Micro-Econometrics</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container">
+    <div class="projects-header fade-up">
+      <div>
+        <span class="section-label">Selected Projects</span>
+        <h2 class="section-title" style="margin-bottom:0;">Research &amp; Projects</h2>
+      </div>
+    </div>
+        <div class="projects-grid">
+      <a href="projects/chinese-infrastructure-east-africa.html" class="project-card fade-up">
+        <span class="project-number">01</span>
+        <h3>Chinese Infrastructure Aid in East Africa and Impact on Development</h3>
+        <p>A spatio-temporal analysis on the economic impact of Chinese infrastructure aid in East Africa. Tracks the construction of roads and changes in night-time lights over time, measuring how one of the main pathways for trade in the region can open up with infrastructure aid.</p>
+        <div class="project-tags">
+          <span class="tag">Belt and Road</span>
+          <span class="tag">BRI</span>
+          <span class="tag">Quantitative</span>
+        </div>
+        <span class="project-arrow">↗</span>
+      </a>
+      <a href="projects/gubernatorial-elections-corrections.html" class="project-card fade-up">
+        <span class="project-number">02</span>
+        <h3>Close Gubernatorial Elections and Corrections Spending, 1977–2022</h3>
+        <p>An examination of close gubernatorial elections from 1977 to 2022 and the impact this has on corrections spending using regression discontinuity design. Results show a treatment effect from close elections, incentivizing elected officials to tend towards bipartisan or median policies.</p>
+        <div class="project-tags">
+          <span class="tag">RDD</span>
+          <span class="tag">Quantitative</span>
+          <span class="tag">Causal Inference</span>
+         </div>
+        <span class="project-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <p class="footer-name">Payton Morlock</p>
+      <p class="footer-tagline">Chinese Economic &amp; Political Affairs</p>
+    </div>
+    <div class="footer-right">
+      <a href="mailto:paytonmmorlock@gmail.com">paytonmmorlock@gmail.com</a>
+      <a href="https://www.linkedin.com/in/payton-morlock-b474721b5/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/paytonmorlock" target="_blank">GitHub</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Payton Morlock. All rights reserved.</p>
+  </div>
+</footer>
+```

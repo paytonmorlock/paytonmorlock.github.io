@@ -1,0 +1,193 @@
+---
+title: "Gubernatorial Elections & Corrections Spending"
+---
+
+```{=html}
+<header class="site-header">
+  <nav class="nav-container">
+    <a href="../index.html" class="nav-brand"><span class="brand-name">Payton Morlock</span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="../index.html#about">About</a></li>
+      <li><a href="../index.html#projects">Projects</a></li>
+      <li><a href="../resume.html">Resume</a></li>
+      <li><a href="../index.html#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="project-page">
+
+  <!-- PROJECT HERO -->
+  <div class="project-hero">
+    <div class="container">
+      <a href="../index.html#projects" class="project-back">← Back to Projects</a>
+      <div class="project-hero-meta">
+        <span class="section-label">Quantitative Methods · UC San Diego</span>
+        <span class="project-hero-year">2024</span>
+      </div>
+      <h1 class="project-hero-title">Close Gubernatorial Elections and Corrections Spending: A Regression Discontinuity Approach</h1>
+      <p class="project-hero-subtitle">
+        Does winning a close governor's race change how a state spends on corrections? Using the near-random variation in tight elections, this paper isolates the causal effect of party affiliation on criminal justice budgets across 45 years of U.S. state data.
+      </p>
+      <div class="project-hero-tags">
+        <span class="tag">Regression Discontinuity</span>
+        <span class="tag">U.S. State Politics</span>
+        <span class="tag">Criminal Justice</span>
+        <span class="tag">Electoral Politics</span>
+        <span class="tag">Causal Inference</span>
+        <span class="tag">R</span>
+      </div>
+      <a href="../assets/QM4_Final_Paper.pdf" target="_blank" class="btn btn-primary" style="margin-top:2rem; display:inline-flex;">
+        Download Full Paper (PDF) ↓
+      </a>
+    </div>
+  </div>
+
+  <!-- PROJECT BODY -->
+  <div class="project-body">
+    <div class="container">
+      <div class="project-content-grid">
+
+        <!-- MAIN CONTENT -->
+        <div class="project-main">
+
+          <div class="project-section fade-up">
+            <h2>Overview</h2>
+            <p>
+              Corrections spending — covering police, prisons, and incarceration infrastructure — has become one of the most politically charged line items in state budgets. Republicans have consistently campaigned on "tough on crime" platforms, while Democrats have increasingly positioned themselves as advocates for criminal justice reform. But does party affiliation in office actually translate into measurable differences in spending?
+            </p>
+            <p>
+              This paper exploits the quasi-random nature of <strong>close gubernatorial elections</strong> (decided within a 5% margin) from 1977 to 2022 as a natural experiment. Using regression discontinuity design (RDD), it estimates the causal effect of a Democratic versus Republican governor winning a tight race on corrections spending as a share of total state expenditures.
+            </p>
+          </div>
+
+          <div class="project-section fade-up">
+            <h2>Data &amp; Design</h2>
+            <p>
+              Two datasets were combined: gubernatorial election results from the Harvard Dataverse replication data for Algara &amp; Amlani (2021), and corrections spending as a fraction of total state expenditures from the Urban Institute's State and Local Government Finance Data Tool. After filtering for close elections (absolute win margin ≤ 5%) within the 1977–2022 window, 538 elections were identified, of which 119 matched to corrections spending data.
+            </p>
+            <p>
+              A <strong>sharp regression discontinuity design</strong> is used, with the Democratic margin of victory as the running variable and a cutoff at zero (50% of votes). The treatment is a Democratic win. The outcome is state corrections spending as a proportion of total expenditures. A McCrary density test confirmed no significant manipulation of the running variable near the cutoff, supporting the assumption of near-random treatment assignment.
+            </p>
+            <p>
+              Bandwidth was optimized using CERRD (Coverage Error Rate optimal bandwidth), yielding an optimal bandwidth of 0.007. Robustness checks include bandwidth sensitivity analysis and polynomial order checks (linear through quartic), all of which produced stable estimates.
+            </p>
+          </div>
+
+          <div class="project-figure fade-up">
+            <div class="figure-placeholder">
+              <p class="figure-label">Figure 1 — RD Plot: Close Elections and Corrections Spending</p>
+              <p class="figure-note">Regression discontinuity plot with bandwidth of 0.009. Democratic wins (right of cutoff) are associated with a modest uptick in corrections spending; Republican wins (left) show a sharper decline. Running variable is Democratic margin of victory.</p>
+            </div>
+          </div>
+
+          <div class="project-section fade-up">
+            <h2>Key Findings</h2>
+            <p>
+              The results are consistent with the hypothesis — but with a counterintuitive twist. <strong>Democratic governors winning close elections modestly increase corrections spending</strong>, while Republican governors who narrowly win actually decrease it. The local average treatment effect (LATE) is approximately <strong>0.2 percentage points</strong> — a small but non-trivial amount given the scale of state budgets.
+            </p>
+            <p>
+              This pattern holds across linear, quadratic, cubic, and quartic model specifications, with coefficients remaining stable at 0.002 throughout. The win margin itself had a larger effect on corrections spending than party affiliation alone, suggesting that <strong>electoral mandate size matters</strong> — governors with narrow victories may respond differently to median voter pressure than those with commanding leads.
+            </p>
+            <p>
+              The finding that Democrats increase spending and Republicans decrease it runs against conventional "tough on crime" rhetoric. One interpretation: Democratic governors winning narrow races perceive their electorates as more moderate and adjust budgets to signal toughness on crime. Republican governors, closer to a base that favors fiscal restraint, may prioritize cutting spending even on law enforcement.
+            </p>
+          </div>
+
+          <div class="project-figure fade-up">
+            <div class="figure-placeholder">
+              <p class="figure-label">Figure 5 — RD Plot at Optimal Bandwidth (CERRD, h = 0.007)</p>
+              <p class="figure-note">With optimal bandwidth, the discontinuity at the cutoff is sharper and more precisely estimated. The jump from Republican to Democratic winners tracks a positive treatment effect.</p>
+            </div>
+          </div>
+
+          <div class="project-section fade-up">
+            <h2>Implications</h2>
+            <p>
+              The findings suggest that budgetary decisions on corrections are shaped meaningfully by <strong>electoral incentives</strong> as much as ideological commitment. When governors are acutely aware of a narrow mandate, they appear to adjust spending to satisfy perceived median voter preferences — which may actually align more closely with moderate corrections spending than party platforms suggest.
+            </p>
+            <p>
+              This has practical implications for criminal justice reform advocates. Rather than assuming partisan affiliation determines corrections budgets, advocates may find more traction focusing on electoral conditions — particularly in swing states with historically close gubernatorial races. More broadly, it raises questions about whether a more technocratic, evidence-based approach to corrections budgeting would produce better outcomes than one driven by electoral cycles.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- SIDEBAR -->
+        <aside class="project-sidebar">
+          <div class="sidebar-card fade-up">
+            <h3>Project Details</h3>
+            <div class="sidebar-item">
+              <span class="sidebar-label">Type</span>
+              <span>Quantitative Methods Paper</span>
+            </div>
+            <div class="sidebar-item">
+              <span class="sidebar-label">Institution</span>
+              <span>UC San Diego, GPS</span>
+            </div>
+            <div class="sidebar-item">
+              <span class="sidebar-label">Year</span>
+              <span>2024</span>
+            </div>
+            <div class="sidebar-item">
+              <span class="sidebar-label">Scope</span>
+              <span>U.S. States, 1977–2022</span>
+            </div>
+            <div class="sidebar-item">
+              <span class="sidebar-label">Observations</span>
+              <span>119 close elections</span>
+            </div>
+            <div class="sidebar-item">
+              <span class="sidebar-label">LATE</span>
+              <span>+0.2% corrections spend (Dem win)</span>
+            </div>
+          </div>
+
+          <div class="sidebar-card fade-up">
+            <h3>Methods Used</h3>
+            <ul class="sidebar-list">
+              <li>Sharp Regression Discontinuity</li>
+              <li>CERRD Bandwidth Optimization</li>
+              <li>McCrary Density Test</li>
+              <li>Polynomial Order Robustness Checks</li>
+              <li>Bandwidth Sensitivity Analysis</li>
+              <li>OLS (Weighted &amp; Unweighted)</li>
+            </ul>
+          </div>
+
+          <div class="sidebar-card fade-up">
+            <h3>Data Sources</h3>
+            <ul class="sidebar-list">
+              <li>Urban Institute State Finance Tool</li>
+              <li>Harvard Dataverse (Algara &amp; Amlani 2021)</li>
+            </ul>
+          </div>
+
+          <div class="sidebar-card fade-up">
+            <a href="../assets/QM4_Final_Paper.pdf" target="_blank" class="btn btn-primary" style="width:100%; justify-content:center; text-align:center;">
+              Download Paper (PDF)
+            </a>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <p class="footer-name">Payton Morlock</p>
+      <p class="footer-tagline">Chinese Economic &amp; Political Affairs</p>
+    </div>
+    <div class="footer-right">
+      <a href="mailto:payton@example.com">payton@example.com</a>
+      <a href="https://linkedin.com/in/paytonmorlock" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+  <div class="footer-bottom"><p>&copy; 2025 Payton Morlock.</p></div>
+</footer>
+```
